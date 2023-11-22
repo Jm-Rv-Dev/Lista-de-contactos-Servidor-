@@ -5,7 +5,7 @@ const formBtn = document.querySelector('#form-btn');
 const list = document.querySelector('#list');
 
 const NAME_REGEX = /^[A-Z][a-z]{2,20}$/;
-const PHONE_REGEX = /^[0]{1}[42]{1}[12]{1}[4]{1}[0-9]{7}$/;
+const PHONE_REGEX = /^[0]{1}[24]{1}[12]{1}[462]{1}[0-9]{7}$/;
 
 let nameValidation = false;
 let phoneValidation = false;
